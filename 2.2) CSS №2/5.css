@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+    margin: 5px 0;
+  }
+
+  .gallery li {
+    border: 0.4rem solid black;
+    padding: 0.2rem;
+    margin: 0.4rem;
+    display: inline-block;
+  }
+
+  .gallery li.small-img img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .gallery li.large-img img {
+    width: 300px;
+    height: 450px;
+  }
